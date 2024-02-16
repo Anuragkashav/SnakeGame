@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-image:url(/pictures/backgroundimg.webp);
+    background-image:url(pictures/backgroundimg.webp);
     justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
