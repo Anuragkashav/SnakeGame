@@ -1,7 +1,7 @@
 const gameBox = document.querySelector("#gameBox")
-const bgMusic = new Audio('sounds/bgmusic.mp3')
-const eatingSound = new Audio('sounds/eatingsound.wav')
-const gameEndSound = new Audio('sounds/gameend.mp3')
+const bgMusic = new Audio('./sounds/bgmusic.mp3')
+const eatingSound = new Audio('./sounds/eatingsound.wav')
+const gameEndSound = new Audio('./sounds/gameend.mp3')
 let score = document.querySelector("#span2");
 let points = 0;
 
