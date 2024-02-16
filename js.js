@@ -40,7 +40,8 @@ function moveSnakeAndFood(snakeArr){
 //activate bg music when key is pressed.
 window.addEventListener('keydown',(e)=>{
     if(e.key==='ArrowUp' || e.key==='ArrowDown' || e.key==='ArrowRight' || e.key==='Arrowleft'){
-        bgMusic.play().loop()
+        bgMusic.play()
+        bgMusic.loop=true
     }
     
 })
